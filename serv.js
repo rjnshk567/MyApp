@@ -55,26 +55,26 @@ app.put('/contactlist/:id', function(req, res){
 app.listen(3031);
 console.log("Server running on port 3031");
 
-// person1 = { 
-	// 	FirstName: 'Roman',
-	// 	LastName: 'Reigns',
-	// 	Email: 'rr@gmail.com',
-	// 	ContactNumber: '9841949493'
-	// };
+person1 = { 
+		FirstName: 'Roman',
+		LastName: 'Reigns',
+		Email: 'rr@gmail.com',
+		ContactNumber: '9841949493'
+	};
 
-	// person2 = {
-	// 	FirstName: 'Amar',
-	// 	LastName: 'Shrestha',
-	// 	Email: 'as1@gmail.com',
-	// 	ContactNumber: '9841649493'
-	// };
+	person2 = {
+		FirstName: 'Amar',
+		LastName: 'Shrestha',
+		Email: 'as1@gmail.com',
+		ContactNumber: '9841649493'
+	};
 
-	// person3 = {
-	// 	FirstName: 'Roshan',
-	// 	LastName: 'Raut',
-	// 	Email: 'rR@gmail.com',
-	// 	ContactNumber: '9801494932'
-	// };
+	person3 = {
+		FirstName: 'Roshan',
+		LastName: 'Raut',
+		Email: 'rR@gmail.com',
+		ContactNumber: '9801494932'
+	};
 
-	// var contactlist =[person1, person2, person3];
-	// res.json(contactlist);
+	var contactlist =[person1, person2, person3];
+	res.json(contactlist);
